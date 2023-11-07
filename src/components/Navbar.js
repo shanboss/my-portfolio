@@ -16,17 +16,17 @@ const Navbar = () => {
           Manu Shanbhog
         </a>
         <div className="hidden md:flex space-x-4">
-          <a href="#" className="text-white">
-            Home
+          <a href="#projects" className="text-slate-500 hover:text-white">
+            Projects
           </a>
-          <a href="#" className="text-white">
-            About
+          <a href="#contact" className="text-slate-500 hover:text-white">
+            Contact
           </a>
-          <a href="#" className="text-white">
+          <a href="#" className="text-slate-500   hover:text-white">
             Services
           </a>
-          <a href="#" className="text-white">
-            Contact
+          <a href="#" className="text-slate-500  hover:text-white">
+            About
           </a>
         </div>
         <div className="md:hidden">

@@ -11,7 +11,7 @@ const Content = () => {
             <div>
               Hi, my name is <br />
               <span className="font-bold">
-                Manu<span className="animate-blink">|</span>
+                Manu.<span className="animate-blink">|</span>
               </span>
             </div>
             <img
@@ -25,7 +25,7 @@ const Content = () => {
           </div>
 
           <div className="text-white text-base font-mono my-8 mx-24">
-            <ul class="list-disc">
+            <ul className="list-disc">
               <li className="my-5">
                 <div className="max-w-md p-1 rounded-lg hover:bg-slate-800">
                   Building and designing{" "}
@@ -48,9 +48,6 @@ const Content = () => {
             </ul>
           </div>
         </div>
-      </div>
-      <div className="bg-slate-400">
-        
       </div>
     </div>
   );
