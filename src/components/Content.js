@@ -26,7 +26,7 @@ const Content = () => {
 
           <div className="text-white text-base font-mono my-8 mx-24">
             <ul className="list-disc">
-              <li className="my-5">
+              <li className="my-5 ">
                 <div className="max-w-md p-1 rounded-lg hover:bg-slate-800">
                   Building and designing{" "}
                   <span className="font-semibold">Websites</span>, just like
@@ -42,7 +42,10 @@ const Content = () => {
               </li>
               <li className="my-5">
                 <div className="max-w-md p-1 rounded-lg hover:bg-slate-800">
-                  Make some art with your car!
+                  Write code for you in{" "}
+                  <span className="font-semibold">Various</span> languages, like
+                  <span className="font-semibold"> C, C++, Java</span>, and many
+                  more.
                 </div>
               </li>
             </ul>

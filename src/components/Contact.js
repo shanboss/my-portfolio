@@ -5,19 +5,21 @@ export default class Contact extends Component {
     return (
       <div className="bg-slate-900">
         <section id="contact" />
-        <div className="container py-10 mx-auto">
+        <div className="container py-10 mx-auto ">
           <div className="text-white font-bold text-4xl font-regular py-10">
             Contact
           </div>
           <div>
-            <ul className="list-none text-white text-2xl">
-              <li className="py-1">
+            <ul className="font-mono list-none text-white text-2xl">
+              <li className="p-1 hover:bg-slate-400 rounded-md max-w-sm">
                 <a href="https://github.com/shanboss" target="_blank">
                   Github: Manu Shanbhog
                 </a>
               </li>
-              <li className="py-1">Email: manushanboss@gmail.com</li>
-              <li className="py-1">
+              <li className="p-1 hover:bg-slate-400 rounded-md max-w-sm">
+                Email: manushanboss@gmail.com
+              </li>
+              <li className="p-1 hover:bg-slate-400 rounded-md max-w-sm">
                 <a
                   href="https://www.instagram.com/manny__phantom/"
                   target="_blank"
@@ -25,7 +27,7 @@ export default class Contact extends Component {
                   Instagram: manny_phantom
                 </a>
               </li>
-              <li className="py-1">
+              <li className="p-1 hover:bg-slate-400 rounded-md max-w-sm">
                 <a
                   href="https://www.youtube.com/channel/UCXkIsLKPg0ODl2YefWsZetg"
                   target="_blank"
