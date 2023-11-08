@@ -11,6 +11,11 @@ export default class Contact extends Component {
           </div>
           <div>
             <ul className="list-none text-white text-2xl">
+              <li className="py-1">
+                <a href="https://github.com/shanboss" target="_blank">
+                  Github: Manu Shanbhog
+                </a>
+              </li>
               <li className="py-1">Email: manushanboss@gmail.com</li>
               <li className="py-1">
                 <a
