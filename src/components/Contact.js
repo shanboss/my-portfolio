@@ -5,8 +5,8 @@ export default class Contact extends Component {
     return (
       <div className="bg-slate-900">
         <section id="contact" />
-        <div className="container py-10 mx-auto ">
-          <div className="text-white font-bold text-4xl font-regular py-10">
+        <div className="container pb-5 mx-auto ">
+          <div className="text-white font-bold text-4xl font-regular py-5">
             Contact
           </div>
           <div>

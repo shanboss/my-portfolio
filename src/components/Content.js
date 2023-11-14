@@ -6,7 +6,7 @@ const Content = () => {
   return (
     <div>
       <div className="bg-neutral-950">
-        <div className="container py-10 mx-auto flex-row">
+        <div className="container py-4 mx-auto flex-row">
           <div className="flex justify-between items-center text-white text-5xl font-regular">
             <div>
               Hi, my name is <br />
