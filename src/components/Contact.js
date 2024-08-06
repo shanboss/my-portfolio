@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default class Contact extends Component {
   render() {
@@ -12,27 +17,39 @@ export default class Contact extends Component {
           <div>
             <ul className="font-mono list-none text-white text-2xl">
               <li className="p-1 hover:bg-slate-400 rounded-md max-w-sm">
-                <a href="https://github.com/shanboss" target="_blank">
-                  Github: Manu Shanbhog
+                <FontAwesomeIcon icon={faEnvelope} size="1x" className="mr-2" />
+                <a href="mailto:manushanboss@gmail.com">
+                  manushanboss@gmail.com
                 </a>
               </li>
               <li className="p-1 hover:bg-slate-400 rounded-md max-w-sm">
-                Email: manushanboss@gmail.com
+                <FontAwesomeIcon icon={faGithub} size="1x" className="mr-2" />
+
+                <a href="https://github.com/shanboss" target="_blank">
+                  Manu Shanbhog
+                </a>
               </li>
+
               <li className="p-1 hover:bg-slate-400 rounded-md max-w-sm">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  size="1x"
+                  className="mr-2"
+                />
                 <a
                   href="https://www.instagram.com/manny__phantom/"
                   target="_blank"
                 >
-                  Instagram: manny_phantom
+                  manny_phantom
                 </a>
               </li>
               <li className="p-1 hover:bg-slate-400 rounded-md max-w-sm">
+                <FontAwesomeIcon icon={faYoutube} size="1x" className="mr-2" />
                 <a
                   href="https://www.youtube.com/channel/UCXkIsLKPg0ODl2YefWsZetg"
                   target="_blank"
                 >
-                  Youtube: Manu Shanbhog
+                  Manu Shanbhog
                 </a>
               </li>
             </ul>

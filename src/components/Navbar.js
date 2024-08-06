@@ -22,12 +22,6 @@ const Navbar = () => {
           <a href="#contact" className="text-slate-500 hover:text-white">
             Contact
           </a>
-          <a href="#" className="text-slate-500   hover:text-white">
-            Services
-          </a>
-          <a href="#" className="text-slate-500  hover:text-white">
-            About
-          </a>
         </div>
         <div className="md:hidden">
           <button
