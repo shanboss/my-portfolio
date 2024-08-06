@@ -9,13 +9,7 @@ const Carousel = ({ cards }) => {
   };
 
   return (
-    <div className="relative w-full">
-      <button
-        onClick={() => scroll(-300)}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full focus:outline-none z-10"
-      >
-        &lt;
-      </button>
+    <div className="relative w-full h-full">
       <div
         ref={scrollRef}
         className="flex overflow-x-scroll scrollbar-hide space-x-12 px-4"
@@ -31,12 +25,6 @@ const Carousel = ({ cards }) => {
           </div>
         ))}
       </div>
-      <button
-        onClick={() => scroll(300)}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full focus:outline-none z-10"
-      >
-        &gt;
-      </button>
     </div>
   );
 };

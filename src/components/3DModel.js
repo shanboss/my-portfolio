@@ -64,7 +64,7 @@ const My3DModelViewer = ({ modelPath }) => (
       angle={0.1}
       penumbra={0.2}
       color="##8cbed6"
-      intensity={10}
+      intensity={100}
       castShadow // Enable shadows for this light
       shadow-mapSize-width={1024} // Adjust shadow map size for better shadow quality
       shadow-mapSize-height={1024}
