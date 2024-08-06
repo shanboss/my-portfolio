@@ -8,7 +8,7 @@ const cards = [
     description:
       "LaserVision scans an object (animate like a person or inanimate like a car or coffee mug), creates a DepthCloud by combining a pointcloud and depth map, and feeds the data into 1 of 2 different CoreML models: Fixed or Adaptive.",
 
-    imageUrl: "LaserLogo.png",
+    imageUrl: "laserLogo.png",
     link: "https://devpost.com/software/laservision",
   },
   {
