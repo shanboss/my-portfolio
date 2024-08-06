@@ -54,13 +54,13 @@ const Loader = () => (
 
 const My3DModelViewer = ({ modelPath }) => (
   <Canvas
-    className="bg-black h-screen" // Apply Tailwind CSS classes
+    className="bg-neutral-800 h-screen border rounded-lg border-gray-800" // Apply Tailwind CSS classes
     shadows // Enable shadow map in the renderer
-    camera={{ position: [0, 0, 5], fov: 50 }} // Example camera setup
+    camera={{ position: [-50, 0, 30], fov: 5 }} // Example camera setup
   >
     <ambientLight intensity={10} />
     <spotLight
-      position={[10, 10, 10]}
+      position={[0, 0, 0]}
       angle={0.1}
       penumbra={0.2}
       color="##8cbed6"
