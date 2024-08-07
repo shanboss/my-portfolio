@@ -15,6 +15,7 @@ function App() {
       <Projects />
       <Contact />
       <InteractiveModel />
+      <div className="bg-black w-full h-16"></div>
     </div>
   );
 }

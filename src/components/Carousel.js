@@ -9,7 +9,7 @@ const Carousel = ({ cards }) => {
   };
 
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-full p-4">
       <div
         ref={scrollRef}
         className="flex overflow-x-scroll scrollbar-hide space-x-12 px-4"
